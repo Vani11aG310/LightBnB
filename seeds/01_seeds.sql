@@ -20,9 +20,9 @@ INSERT INTO properties (
   post_code,
   active
 )
-VALUES (1, 'test_title1', 'test description', 'test.thumnail.url.com', 'test.cover.url.com', 2500, 3, 2, 3, 'Canada', 'test avenue', 'Maple Ridge', 'BC', '123 456', TRUE),
-(2, 'test_title2', 'test description', 'test.thumnail.url.com', 'test.cover.url.com', 2500, 3, 2, 3, 'Canada', 'test avenue', 'Maple Ridge', 'BC', '123 456', TRUE),
-(3, 'test_title3', 'test description', 'test.thumnail.url.com', 'test.cover.url.com', 2500, 3, 2, 3, 'Canada', 'test avenue', 'Maple Ridge', 'BC', '123 456', TRUE);
+VALUES (1, 'Hollywood Pad', 'description', 'test.thumnail.url.com', 'test.cover.url.com', 2500, 3, 2, 3, 'Canada', 'vernon avenue', 'Maple Ridge', 'BC', '123 456', TRUE),
+(2, 'Red Robin Abode', 'description', 'test.thumnail.url.com', 'test.cover.url.com', 1000, 2, 2, 3, 'Canada', 'gilker avenue', 'Victoria', 'BC', '123 456', TRUE),
+(3, 'mclane drive', 'description', 'test.thumnail.url.com', 'test.cover.url.com', 500, 1, 2, 3, 'Canada', 'mason street', 'Surrey', 'BC', '123 456', TRUE);
 
 INSERT INTO reservations (
   start_date,
@@ -41,6 +41,6 @@ INSERT INTO property_reviews (
   rating,
   message
 )
-VALUES (1, 1, 1, 6, 'test message'),
-(2, 3, 2, 8, 'test message'),
-(3, 2, 3, 10, 'test message');
+VALUES (1, 1, 1, 2, 'test message'),
+(2, 3, 2, 4, 'test message'),
+(3, 2, 3, 5, 'test message');
